@@ -1,0 +1,77 @@
+/* Mobile-specific styles */
+
+/* Navigation links */
+.nav-links {
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .nav-links ul {
+    flex-direction: row;
+  }
+  
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  /* Car images */
+  .car-images {
+    height: 200px; /* adjust the height according to your needs */
+  }
+  
+  .image-slider {
+    height: 200px; /* adjust the height according to your needs */
+  }
+  
+  .slide {
+    width: 100%;
+    height: 400px; /* adjust the height according to your needs */
+  }
+  
+  /* Our Services */
+  .our-services {
+    padding: 10px;
+  }
+  
+  /* Business Insurance */
+  .business-insurance {
+    margin: 10px auto;
+    padding: 10px;
+  }
+  
+  .business-insurance .row {
+    flex-direction: column;
+  }
+  
+  .business-insurance .col {
+    flex-basis: 100%;
+    margin: 10px 0;
+  }
+  
+  /* Social media buttons */
+  .social-media-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-media-buttons button {
+    margin: 10px 0;
+  }
+  
+  /* Other styles */
+  .insurance-solutions {
+    padding: 10px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  /* Media query for mobile devices */
+  @media only screen and (max-width: 768px) {
+    /* Add mobile-specific styles here */
+  }

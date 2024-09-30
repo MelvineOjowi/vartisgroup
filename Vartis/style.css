@@ -1,0 +1,193 @@
+.social-media-buttons {
+  display: block; /* use flexbox to layout the elements */
+  justify-content: space-between; /* push the logo to the left and the buttons to the right */
+  width: 100%;
+  background-color: white;
+  height: 50px;
+  margin-bottom: 10px auto;
+}
+
+.logo {
+  margin-right: 10px; /* add some space between the logo and buttons */
+}
+
+.social-media-buttons button {
+  margin-left: auto; /* push the buttons to the right side */
+  margin-right: 10px; 
+  margin-bottom: 100px;/* keep the space between buttons */
+}
+.facebook-button, .twitter-button, .linkedin-button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.facebook-button img, .twitter-button img, .linkedin-button img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    justify-content: flex-end;
+}
+
+.facebook-button:hover, .twitter-button:hover, .linkedin-button:hover {
+    transform: scale(1.1);
+}
+.nav-links {
+    /* Add some padding to the container */
+    padding: 20px;
+    
+    /* Make the list items display inline-block */
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    /* Style the list items */
+    li {
+      margin-right: 20px;
+    }
+    
+    /* Style the links */
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    /* Add a hover effect to the links */
+    a:hover {
+      color: #666;
+    }
+  }
+ /* Add styles to style.css file */
+ .car-images {
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* adjust the width as needed */
+  height: 300px; /* adjust the height as needed */
+}
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%; /* adjust the width as needed */
+  height: 100%;
+  margin: 0 10px; /* adjust the margin as needed */
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide img, .slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-slider.animate {
+  animation: sliderAnimation 10s linear infinite;
+}
+
+@keyframes sliderAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.insurance-solutions {
+  margin: 0 auto;
+  max-width: 800px; /* adjust the width as needed */
+}
+
+/* Add a CSS class to make the container sticky on scroll */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* Add the sticky class to the insurance-solutions container */
+.insurance-solutions.sticky {
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.our-services {
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: antiquewhite; /* adjust the width as needed */
+}
+.business-insurance {
+  position: relative;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: aliceblue; /* adjust the width as needed */
+}
+.business-insurance a {
+  text-decoration: #1d1717;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.col {
+  flex-basis: 30%; /* adjust the width as needed */
+  margin: 10px;
+}
+.car-images {
+  position: relative;
+  width: 100%;
+  height: 500px; /* adjust the height according to your needs */
+  overflow: hidden;
+}
+
+.image-slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+.slide img, .slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foreground-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.foreground-image img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  position:absolute;
+}
